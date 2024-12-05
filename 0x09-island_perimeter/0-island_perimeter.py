@@ -1,6 +1,14 @@
 #!/usr/bin/python3
+"""
+module that house a function
+"""
 
 def island_perimeter(grid):
+    """
+    function to calculate and return the perimeter of an island
+    Args:
+      grid: 2D array that represent the island
+    """
     rows, cols = len(grid), len(grid[0])
     perimeter = 0
 
