@@ -9,7 +9,7 @@ def island_perimeter(grid):
             if grid[r][c] == 1:  # Land cell
                 # Start with 4 edges
                 perimeter += 4
-                
+
                 # Check for neighboring land cells to subtract shared edges
                 if r > 0 and grid[r-1][c] == 1:  # Top neighbor
                     perimeter -= 1
